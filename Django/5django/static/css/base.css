@@ -1,0 +1,53 @@
+/* static/css/base.css */
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    border-bottom: 1px solid #999;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+h1 {
+    color: crimson;
+    text-decoration: none;
+}
+
+.nav-left {
+    margin-right: auto
+}
+
+.nav-right {
+    display: flex;
+    padding-top: 2rem;
+}
+
+/* <div class="post-entry"> */
+.post-entry {
+    margin-bottom: 2rem;
+}
+
+/* <h2><a href="">{{ post.title }}</a></h2> */
+.post-entry h2 {
+    margin: 0.5rem 0;
+}
+
+.post-entry h2 a,
+.post-entry h2 a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+/* <p>{{ post.body }}</p> */
+
+.post-entry p {
+    margin: 0;
+    font-weight: 400;
+}
+
+.post-entry h2 a:hover {
+    color: red;
+}
